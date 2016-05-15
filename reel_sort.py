@@ -8,7 +8,7 @@ try:
                 if file[0:4] == "All ":
                     print "skipping Main ALE File"
                 else:
-                    if "ale" or "mov" in file:
+                    if ".ale" or ".mov" or ".mxf" in file:
                         if current != file[0:4]:
                                 print "="*50
                                 current = file[0:4]
