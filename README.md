@@ -8,7 +8,3 @@ Usage:
 python reel_sort.py 'Directory'
 
 Or Make it executable.
-
-chmod u+x reel_sort.py 
-
-./reel_sort.py 'Directory'
